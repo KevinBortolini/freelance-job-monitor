@@ -1,0 +1,7 @@
+# Copy explicitly to ignored live.toml. No mailbox is accessed in demo mode.
+label = "JobAlerts"
+query = "newer_than:30d"
+max_messages = 100
+credentials_file = ".local/oauth-client.json"
+token_file = ".local/token.json"
+output_file = ".local/opportunities.xlsx"

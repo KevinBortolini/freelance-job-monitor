@@ -1,0 +1,31 @@
+From: Invented alerts <alerts@freelancer.example>
+To: Demo reader <reader@example.test>
+Date: Thu, 15 Jan 2026 12:00:00 +0000
+Message-ID: <invented-digest@example.test>
+Subject: Invented project digest
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Invented Freelancer.com opportunities
+
+Data cleaning helper
+Budget: USD 200 fixed (fictional)
+Skills: CSV, API
+Description:
+Clean an invented stock list.
+/projects/invented-data-cleaning?project_id=DEMO-202&utm_source=demo
+
+Spreadsheet automation
+Budget: USD 150 fixed (fictional)
+Skills: Spreadsheet
+Description:
+Organize a fictional worksheet.
+/projects/invented-spreadsheet?project_id=DEMO-203
+
+Unpaid trial API task
+Budget: Unpaid (fictional exclusion example)
+Skills: Python
+Description:
+Fictional rejected example. No work is offered.
+/projects/invented-trial?project_id=DEMO-204

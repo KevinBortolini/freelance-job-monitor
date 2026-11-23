@@ -1,0 +1,23 @@
+# Invented example, not the project owner's preferences. Copy explicitly to preferences.txt.
+# Comments must occupy entire lines. Terms may use the language of incoming jobs.
+score_min = 0
+score_max = 100
+consider_score = 1
+good_score = 15
+strong_score = 30
+
+weight = 20 | python
+weight = 10 | automation
+weight = 8 | api
+weight = 6 | csv
+weight = 7 | data cleaning
+weight = 4 | spreadsheet
+weight = -40 | unpaid
+
+# All terms; any term from each group; cap if first group matches without second.
+all = 15 | python; automation
+pair = 9 | csv; data cleaning || api; pipeline
+cap = 12 | spreadsheet || python; api
+
+# Exclusion overrides the match category, even when positive rules also match.
+exclude = unpaid trial
